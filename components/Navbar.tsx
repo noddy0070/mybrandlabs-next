@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="flex items-center gap-[.625vw] ml-auto">
         <button className=" px-[2.4306vw] py-[.9028vw] font-bold border-[.1389vw]  text-regularText  border-black rounded-[3.4722vw]">Get Started</button>
         <button className=" rounded-full bg-black">
-          <Image src="/icons/bell.svg" alt="bell" className=" w-[1.6667vw] h-[1.6667vw] m-[.9028vw]" width={24} height={24} />
+          <img src="/icons/bell.svg" alt="bell" className=" w-[1.6667vw] h-[1.6667vw] m-[.9028vw]" width={24} height={24} />
         </button>
       </div>
 
