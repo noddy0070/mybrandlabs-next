@@ -6,9 +6,9 @@ export default function Navbar() {
       <div className="flex items-center gap-[5.1389vw]">
       <span className="text-[1.6667vw] font-bold cursor-pointer">MBL</span>
 
-        <div className="flex items-center text-[.9722vw] gap-[2.2917vw] ">
+        <div className="flex items-center text-h3Text font- gap-[2.2917vw] font-b">
           <div className="flex items-center  cursor-pointer  gap-[.4861vw]">
-        <span className="text-[1.1111vw] font-semibold">Service</span>
+        <span className=" font-semibol d text-h3Text">Service</span>
         <Image src="/icons/chevron-down.svg" alt="chevron-down" className=" w-[1.3889vw] h-[1.3889vw]" width={20} height={20} />
         </div>
         <div className="flex items-center cursor-pointer gap-[.4861vw] ">
