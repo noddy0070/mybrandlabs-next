@@ -7,7 +7,7 @@
     --font-brand: 'Acumin Variable Concept', sans-serif;
     --font-heading: 'Inter', sans-serif;
     --font-body: 'Noto Sans', sans-serif;
-    --text-testimonial: clamp(42px, 5.5vw, 90px);
+    --text-testimonial: clamp(42px, 5vw, 90px);
     --text-h0Text: clamp(36px, 4vw, 80px);
     --text-h1Text: clamp(32px, 3.5vw, 72px);
     --text-h2Text: clamp(28px, 3vw, 56px);
