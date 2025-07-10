@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@theme{
+    --color-brand-purple: #7a28cb;
+    --color-brand-cream: #f2f3d9;
+    --color-brand-dark: #32292f;
+    --font-brand: 'Acumin Variable Concept', sans-serif;
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Noto Sans', sans-serif;
+    --text-testimonial: clamp(42px, 5.5vw, 90px);
+    --text-h0Text: clamp(36px, 4vw, 80px);
+    --text-h1Text: clamp(32px, 3.5vw, 72px);
+    --text-h2Text: clamp(28px, 3vw, 56px);
+    --text-h3Text: clamp(24px, 2.5vw, 52px);
+    --text-h4Text: clamp(20px, 2vw, 48px);
+    --text-h5Text: clamp(16px, 1.5vw, 44px);
+    --text-h6Text: clamp(14px, 1.25vw, 24px);
+    --text-mediumText: clamp(12px, 1.2vw, 24px);
+    --text-regularText: clamp(12px, 1vw, 18px);
+    --text-smallText: clamp(10px, .875vw, 16px);
+    --text-tinyText: clamp(8px, .75vw, 14px);
+    --text-h0TextPhone: clamp(36px, 16vw, 80px);
+    --text-h1TextPhone: clamp(32px, 14vw, 72px);
+    --text-h2TextPhone: clamp(28px, 12vw, 56px);
+    --text-h3TextPhone: clamp(24px, 10vw, 52px);
+    --text-h4TextPhone: clamp(20px, 8vw, 48px);
+    --text-h5TextPhone: clamp(16px, 6vw, 44px);
+    --text-h6TextPhone: clamp(14px, 4.5vw, 24px);
+    --text-mediumTextPhone: clamp(12px, 4.25vw, 24px);
+    --text-regularTextPhone: clamp(12px, 4vw, 18px);
+    --text-smallTextPhone: clamp(10px, 3.5vw, 16px);
+    --text-tinyTextPhone: clamp(8px, 3vw, 14px);
+}
