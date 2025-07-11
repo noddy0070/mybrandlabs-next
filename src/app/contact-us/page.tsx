@@ -1,9 +1,12 @@
 import React from 'react'
+import HeaderSection from '../../../components/contact/headerSection'
+import FAQ from '../../../components/FAQ'
 
 const ContactUs = () => {
   return (
     <div>
-      hi
+      <HeaderSection/>
+      <FAQ/>
     </div>
   )
 }
