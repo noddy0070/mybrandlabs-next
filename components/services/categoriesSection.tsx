@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import { TransitionLink } from '../../utils/TransitionLink'
 
 const categoriesData = [
     {
@@ -49,7 +48,7 @@ const CategoriesSection = () => {
             <h3 className='text-h2Text text-black font-semibold leading-[110%] pb-[2.625vw] text-center'>Service Categories</h3>
             <div className='flex flex-wrap gap-x-[1.5vw] gap-y-[4vw]  py-[4vw] justify-center'>
                 {categoriesData.map((item) => (
-                    <div className='rounded-[1vw] py-[2vw] px-[1.5vw] border flex flex-col gap-[2vw] w-[21vw] '>
+                    <div key={item.id} className='rounded-[1vw] py-[2vw] px-[1.5vw] border flex flex-col gap-[2vw] w-[21vw] '>
                     <div className='relative flex flex-col items-center justify-center w-[5.875vw] h-[5.875vw] rounded-full'>
                         <div className='absolute top-0 left-0 flex flex-col items-center justify-center bg-[url("/images/backgroundTexture.png")] opacity-[6%]  bg-cover bg-center w-[5.875vw] h-[5.875vw] rounded-full'/>
                         <Image src={item.icon} alt={item.title} width={48} height={48} className=' w-[2.5vw] h-[2.5vw]'/>
