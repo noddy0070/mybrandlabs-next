@@ -2,7 +2,7 @@ import React from 'react'
 
 const VisionSection = () => {
   return (
-    <div className='py-[7vw] px-[10vw] bg-[#F2F2F2]'> 
+    <div className='py-[7vw] px-[10vw] bg-[#F2F2F2] relative z-10'> 
         <p className='text-black text-center font-bold text-h5Text mb-[4vw]'>Our Vision</p>
         <div className='grid grid-cols-3 gap-[1vw]'>
             <div>

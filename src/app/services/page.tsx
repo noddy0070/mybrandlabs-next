@@ -1,16 +1,21 @@
+import CategoriesSection from "../../../components/services/categoriesSection";
+import FlowSection from "../../../components/services/flowSection";
+import TechSection from "../../../components/services/techSection";
+
 export default function Services() {
   return (
-    <main className="min-h-screen bg-background  text-foreground flex flex-col items-center justify-center px-4 bg-[url('/images/services/serviceBackground.png')] bg-cover bg-center">
-      <h1 className="text-4xl font-bold text-brand-purple mb-4">Our Services</h1>
-      <ul className="max-w-xl text-lg text-foreground/80 list-disc list-inside">
-        <li>Website & App Development</li>
-        <li>Digital Marketing & Ads</li>
-        <li>Content Creation</li>
-        <li>Social Media Management</li>
-        <li>SEO & Analytics</li>
-        <li>Brand Strategy</li>
-        <li>And more...</li>
-      </ul>
-    </main>
+    <div>
+    <div className="min-h-screen bg-background pt-[15vw] pl-[10vw] bg-[url('/images/services/serviceBackground.png')] bg-cover bg-center">
+      <div>
+        <h2 className="text-header text-white font-semibold leading-[110%] w-[43.75vw] pb-[3vw]">Smart Digital Solutions. Custom-Built for Growth.</h2>
+        <p className="text-regularText text-[#CACDD0] font-medium leading-[150%] text-justify w-[27.875vw]">
+        From digital campaigns to full-stack development — explore the services designed to move your brand forward.
+        </p>
+      </div>
+    </div>
+      <CategoriesSection/>
+      <TechSection/>
+      <FlowSection/>
+      </div>
   );
 } 

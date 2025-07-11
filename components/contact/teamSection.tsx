@@ -26,7 +26,7 @@ const teamData = [
 
 const TeamSection = () => {
   return (
-    <div className='py-[7vw] px-[10vw] bg-white flex flex-col gap-[5vw]'>
+    <div className='py-[7vw] px-[10vw] bg-white flex flex-col gap-[5vw] relative z-10'>
         <div className='flex flex-col gap-[1.5vw] w-[48vw] mx-auto'>
             <h2 className='text-center text-h2Text'>The Minds Behind the Magic</h2>
             <p className='text-center text-mediumText '>A team of creators, coders, strategists, and storytellers — driven by clarity, curiosity, and craft. We keep it small, skilled, and scalable. </p>

@@ -31,8 +31,8 @@ const FAQ = () => {
         setSelected(i)
     }
   return (
-    <div className='bg-[#F3F3F3] w-full px-[1vw]  py-[1vw]'>
-        <div className='py-[4.5833vw] px-[5.5556vw] flex gap-[6.25vw] bg-white rounded-[1.9444vw]'>
+    <div className='bg-[#F3F3F3] w-full px-[1vw]  py-[1vw] relative'>
+        <div className='py-[4.5833vw] px-[5.5556vw] flex gap-[6.25vw] z-100 bg-white rounded-[1.9444vw]'>
             <div className='flex flex-col gap-[3.3333vw] w-[39.6528vw] '>
                 <h2 className='text-h2Text font-bold'>Frequently Asked Questions</h2>
                 <p className='text-regularText font-medium text-[#878C91]'>

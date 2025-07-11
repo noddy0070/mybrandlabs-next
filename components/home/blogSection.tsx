@@ -23,7 +23,8 @@ const blogData=[
 
 const BlogSection = () => {
   return (
-    <div className='px-[5.5556vw] pb-[8.8194vw] pt-[4.8611vw] flex flex-col gap-[4.4444vw]'>
+    <div className='relative px-[5.5556vw] pb-[8.8194vw] pt-[4.8611vw] flex flex-col gap-[4.4444vw] '>
+
         <div className='flex flex-row gap-[2.7083vw]'>
             <h2 className='w-[47.5vw] text-h2Text font-semibold'>Digital Marketing & Tech Solutions That Grow Traffic & Increase Revenue</h2>
             <div className='flex flex-col gap-[3.3333vw] w-[38.6806vw] '>

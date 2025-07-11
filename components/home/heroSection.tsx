@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const heroSection = () => {
   return (
-    <div className='flex gap-[.6944vw] pt-[3.6806vw] relative'>
+    <div className='flex gap-[.6944vw] px-[5.5556vw] pt-[3.6806vw] relative'>
       <div className='flex flex-col  gap-[3.3333vw] w-[48.6111vw] '>
         <h1 className='text-h0Text font-semibold leading-[110%]'>
         Stay ahead of the<br/> curve with our<br/> forward-thinking 

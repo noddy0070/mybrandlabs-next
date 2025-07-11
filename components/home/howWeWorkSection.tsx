@@ -2,7 +2,8 @@ import React from 'react'
 
 const HowWeWorkSection = () => {
   return (
-    <div className='mx-[5.5556vw] mt-[4.8611vw] mb-[6.1806vw] flex flex-col gap-[5vw]'>
+    <div className='px-[5.5556vw] pt-[4.8611vw] pb-[6.1806vw] flex flex-col gap-[5vw] relative'>
+
         <div className='flex justify-center '>
             <h2 className='text-h2Text font-semibold w-[47.5vw] leading-[100%]'>
             Creative Tech Meets Digital<br/> Impact
