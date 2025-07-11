@@ -5,7 +5,7 @@ import HowWeWorkSection from "../../components/home/howWeWorkSection";
 import TestimonialSection from "../../components/home/testimonialSection";
 export default function Home() {
   return (
-    <div className="text-foreground min-h-screen flex flex-col items-center w-full font-sans relative">
+    <div className="text-foreground min-h-screen flex flex-col items-center w-full font-sans relative overflow-hidden">
       <HeroSection />
       <HowWeWorkSection/>
       <TestimonialSection/>
