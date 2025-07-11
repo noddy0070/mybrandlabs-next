@@ -33,7 +33,7 @@ const TeamSection = () => {
         </div>
         <div className='flex flex-row gap-[1.875vw] mx-auto '>
         {teamData.map((item, index) => (
-            <div className='rounded-[.75vw] '>
+            <div key={index} className='rounded-[.75vw] '>
                 <Image src={item.image} alt={item.name} width={300} height={300} className='w-[14.4375vw] h-[14.4375vw]' />
                 <div className='px-[.5vw] pt-[.5vw]'>
                     <p className='text-h6Text font-semibold leading-[150%]'>{item.name}</p>
@@ -43,7 +43,7 @@ const TeamSection = () => {
         ))}
         </div> 
         <div className='w-[30.125vw] mx-auto flex flex-col'>
-            <h3 className='text-h4Text font-semibold leading-[150%] text-center pb-[1vw]'>We're hiring!</h3>
+            <h3 className='text-h4Text font-semibold leading-[150%] text-center pb-[1vw]'>We&apos;re hiring!</h3>
             <p className='text-h6Text leading-[150%] text-center pb-[1.5vw]' >We want freelance developers, UX designers, social media managers, content creators, video editors.</p>
             <button className=' border w-min whitespace-nowrap mx-auto text-black px-[1.5vw] py-[.75vw] rounded-[3.125vw] text-regularText'>Open Positions</button>
         </div>
