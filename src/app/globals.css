@@ -44,4 +44,27 @@
     transition: all 0.5s cubic-bezier(1,0,1,0);
   
   }
+
+  body{
+    transition-property: opacity, transform, filter, background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+  }
+
+  body::before{
+    opacity: 0.06;
+    background-image: url('/images/backgroundTexture.png');
+  }
+
+  .page-transition{
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(12px);
+  }
+  
+  .page-transition-mobile{
+    opacity: .5;
+    transition-timing-function: ease-in-out;
+  }
+  
   

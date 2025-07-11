@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { TransitionLink } from "../utils/TransitionLink";
 export default function Navbar() {
   return (
     <nav className="w-full flex items-center px-[5.5556vw] py-[2.0833vw]  justify-between  ">
       
       <div className="flex items-center gap-[5.1389vw]">
-      <Image src="/icons/mbl.svg" alt="chevron-down" className=" w-[3.02vw] h-[2.08vw]" width={40} height={38} />
+        <TransitionLink href="/">
+          <Image src="/icons/mbl.svg" alt="chevron-down" className=" w-[3.02vw] h-[2.08vw]" width={40} height={38} />
+        </TransitionLink>
 
       
 
@@ -18,7 +21,9 @@ export default function Navbar() {
         <div className="flex items-center cursor-pointer gap-[.4861vw] ">
         <span className=" font-semibold">Resources</span>
         </div>
+        <TransitionLink href="/contact-us ">
         <span className="font-semibold cursor-pointer">Contact</span>
+        </TransitionLink>
         </div>
       </div>
       <div className="flex items-center gap-[.625vw] ml-auto">
