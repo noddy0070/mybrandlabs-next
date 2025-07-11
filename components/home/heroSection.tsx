@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const heroSection = () => {
   return (
-    <div className='flex gap-[.6944vw] pt-[3.6806vw]'>
+    <div className='flex gap-[.6944vw] pt-[3.6806vw] relative'>
       <div className='flex flex-col  gap-[3.3333vw] w-[48.6111vw] '>
         <h1 className='text-h0Text font-bold leading-[110%]'>
         Stay ahead of the curve with our forward-thinking 
@@ -24,7 +24,8 @@ const heroSection = () => {
             <div className='absolute top-[-2.7778vw] right-[2.7778vw] rounded-full bg-black shadow-[0vw_2.0886vw_3.5125vw_-0.475vw_rgba(0,_0,_0,_0.44)]  w-[7.5vw] h-[7.5vw] flex items-center justify-center'>
               <Image src="../icons/trending-up.svg" alt="arrow-right" width={48} height={48} className='w-[3.3333vw] h-[3.3333vw]' />
             </div>
-          <div className=' rounded-tl-[69.4444vw] bg-[rgba(0,0,0,0.2)] rounded-bl-[1.3889vw] rounded-r-[1.3889vw] w-[21.0417vw] h-[19.0972vw]'/>
+          <div className="rounded-tl-[69.4444vw] bg-[rgba(0,0,0,0.2)] rounded-bl-[1.3889vw] rounded-r-[1.3889vw] w-[21.0417vw] h-[19.0972vw] bg-[url('/images/home/howSectionCurve.png')] bg-cover bg-center"
+/>
           </div>
           <div className='w-[17.9861vw] px-[1.7361vw] py-[2.0833vw] h-[19.5139vw] bg-[#F0F0F0] rounded-[1.3889vw] flex flex-col justify-start '>
             <span className='text-testimonial font-bold leading-[80%] mb-[2.0833vw]'>10+</span>
@@ -35,9 +36,7 @@ const heroSection = () => {
             </div>
           </div>
         </div>
-        <div className='rounded-[1.3889vw] bg-transparent relative flex gap-[2.6389vw]'>
-        <Image src="/images/home/heroSectionBox.png" alt="heroSectionBox" width={1920} height={1920} className='absolute top-0 left-0 z-[-1] w-[100%] h-[100%]'/>
-
+        <div className="rounded-[1.3889vw] bg-transparent relative flex gap-[2.6389vw] bg-[url('/images/home/heroSectionBox.png')] bg-cover bg-center">
           <div className='pl-[2.2917vw] pr-[1.8056vw] pt-[3.3333vw] pb-[4.1667vw] w-[22.2222vw]'>
             <div className='flex mb-[2.2222vw] items-center'>
               <div className='w-[2.7778vw] h-[.1389vw] bg-white '/>
