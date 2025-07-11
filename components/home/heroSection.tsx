@@ -4,16 +4,19 @@ const heroSection = () => {
   return (
     <div className='flex gap-[.6944vw] pt-[3.6806vw] relative'>
       <div className='flex flex-col  gap-[3.3333vw] w-[48.6111vw] '>
-        <h1 className='text-h0Text font-bold leading-[110%]'>
-        Stay ahead of the curve with our forward-thinking 
+        <h1 className='text-h0Text font-semibold leading-[110%]'>
+        Stay ahead of the<br/> curve with our<br/> forward-thinking 
         </h1>
         <p className='text-regularText leading-[150%] font-medium text-[#878C91]'>
         We are a results-driven agency blending digital marketing and IT solutions to help brands grow faster and smarter. Welcome to where innovation meets execution.
         </p>
-        <div className='flex gap-[3.8889vw]  items-center'>
-            <button className='bg-black text-white px-[2.2222vw] py-[1.1111vw] rounded-[4.8611vw] flex items-center gap-[2.9167vw]'>
+        <div className='flex gap-[3vw]  items-center'>
+            <button className='group hover:bg-black hover:text-white bg-transparent border border-black transition-colors duration-300 cursor-pointer text-black px-[2.2222vw] py-[1.1111vw] rounded-[4.8611vw] flex items-center gap-[1vw]'>
                 <span className='text-regularText font-semibold'>Schedule Call</span>
-                <Image src="../icons/arrow-right-white.svg" alt="arrow-right" width={24} height={24} className='w-[1.6667vw] h-[1.6667vw]' />
+                <svg className='w-[1.6667vw] h-[1.6667vw] transition-colors duration-300 text-black group-hover:text-white' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
             </button>
             <span className='underline text-regularText  font-semibold text-[#010205]'>View Case Studies</span>
         </div>

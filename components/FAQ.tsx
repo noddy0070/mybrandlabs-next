@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image'
+import { TransitionLink } from '../utils/TransitionLink'
 
 const faq = [
     {
@@ -39,7 +40,9 @@ const FAQ = () => {
                 </p>
                 <div className='flex items-center gap-[3.3333vw] '>
                     <button className='px-[1.9792vw] py-[1.1806vw] border-[.1389vw] border-black rounded-[3.4722vw] text-regularText font-medium'> More Questions</button>
-                    <span className='text-regularText font-medium underline'>Contact Us</span>
+                    <TransitionLink href="/contact-us">
+                    <span className='text-regularText cursor-pointer font-medium underline'>Contact Us</span>
+                    </TransitionLink>
                 </div>
             </div>
             <div className='w-[43.5417vw] '>
@@ -47,7 +50,7 @@ const FAQ = () => {
                     <div key={index} className={`flex flex-col  border-b-[.1389vw] border-black py-[1.8056vw] px-[1.6667vw] ${index === 0 ? 'border-t-[.1389vw]' : ''}`}>
                         <div className='relative flex items-center justify-between ' onClick={()=>toggle(index)}>
                             <h3 className='text-h5Text font-semibold w-[31.1111vw]'>{item.question}</h3>
-                            <div className='relative w-[1.6667vw] h-[1.6667vw]'>
+                            <div className='relative w-[1.6667vw] h-[1.6667vw] cursor-pointer'>
                                 <Image src="/icons/minus.svg" alt="arrow-right" className={`absolute top-0 left-0 w-[1.6667vw] h-[1.6667vw] duration-300 transition-all ${selected==index ?'rotate-180':'rotate-0'}`} width={24} height={24} />
                                 <Image src="/icons/minus.svg" alt="arrow-right" className={`absolute top-0 left-0 w-[1.6667vw] h-[1.6667vw] duration-300 transition-all ${selected==index ?'rotate-270':'rotate-0'}`}  width={24} height={24} />
                             </div>

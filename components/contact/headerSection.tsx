@@ -7,7 +7,7 @@ const HeaderSection = () => {
         <div className='w-[43.75vw] flex flex-col gap-[3vw]'>
             <h1 className='text-testimonial font-bold leading-[100%]'>Contact Us</h1>
             <p className='text-regularText font-medium text-[#878C91] w-[27.875vw]'>
-            Whether you’re ready to launch or just exploring ideas — we’d love to hear from you.
+            Whether you’re ready to launch or just exploring ideas —<br/>we’d love to hear from you.
             </p>
             <div className='flex gap-[2vw]'>
             <div className="flex flex-row gap-[8.8896px]">
@@ -29,9 +29,12 @@ const HeaderSection = () => {
                                 </p>
                             </div>
             </div>
-            <button className='bg-black text-white px-[2vw] w-[11.4375vw] py-[1vw] rounded-[77.7776px] flex items-center gap-[2vw]'>
+            <button className='group hover:bg-black hover:text-white bg-transparent border border-black transition-colors duration-300 cursor-pointer text-black px-[2vw] w-[11.4375vw] py-[1vw] rounded-[77.7776px] flex items-center gap-[2vw]'>
                 <span className='text-regularText font-semibold'>Contact</span>
-                <Image src="../icons/arrow-right-white.svg" alt="arrow-right" width={24} height={24} className='w-[26.6672px] h-[26.6672px]' />
+                    <svg className='w-[1.6667vw] h-[1.6667vw] transition-colors duration-300 text-black group-hover:text-white' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
             </button>
 
 

@@ -93,7 +93,7 @@ const TestimonialSection = () => {
         </div>
       <div className="ml-auto flex items-center gap-[2.6389vw] mr-[5.5556vw]">
         <button
-          className="px-[2.2222vw] py-[1.1111vw] group rounded-full  bg-transparent transition-colors duration-300 border-black border text-white hover:bg-black flex items-center justify-center "
+          className="px-[2.2222vw] cursor-pointer py-[1.1111vw] group rounded-full  bg-transparent transition-colors duration-300 border-black border text-white hover:bg-black flex items-center justify-center "
           onClick={handlePrev}
           aria-label="Previous testimonial"
         >
@@ -106,7 +106,7 @@ const TestimonialSection = () => {
           <span className=''>{String(current + 1).padStart(2, '0')}</span><span className=' text-[rgba(1,2,4,.4)]'>/{String(testimonials.length).padStart(2, '0')}</span>
         </span>
         <button 
-          className="px-[2.2222vw] py-[1.1111vw] group rounded-full bg-transparent transition-colors duration-300 border-black border text-white hover:bg-black flex items-center justify-center "
+          className="px-[2.2222vw] cursor-pointer py-[1.1111vw] group rounded-full bg-transparent transition-colors duration-300 border-black border text-white hover:bg-black flex items-center justify-center "
           onClick={handleNext}
           aria-label="Next testimonial"
         >
