@@ -22,10 +22,10 @@ const faq = [
 ]
 
 const FAQ = () => {
-    const [selected,setSelected]=useState(0)
+    const [selected,setSelected]=useState(-1)
     const toggle=(i:number)=>{
         if (selected==i){
-            return setSelected(0)
+            return setSelected(-1)
         }
         setSelected(i)
     }

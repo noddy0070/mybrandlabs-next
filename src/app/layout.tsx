@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { plusJakarta } from "./fonts";
 import "./globals.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -26,8 +27,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <style>
+        {`
+        
+        body {
+          font-family: ${plusJakarta.style.fontFamily}, sans-serif;
+          
+        }
+
+
+         h1, h2, h3, h4, h5, h6 {
+          font-family: ${plusJakarta.style.fontFamily}, sans-serif;
+          font-weight: 700;
+        }
+        `}
+        </style>
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${plusJakarta.className} antialiased`} 
       >
         <div className='fixed inset-0 bg-[url("/images/backgroundTexture.png")] bg-cover bg-center opacity-[6%] pointer-events-none z-0' />
 

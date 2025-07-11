@@ -93,21 +93,27 @@ const TestimonialSection = () => {
         </div>
       <div className="ml-auto flex items-center gap-[2.6389vw] mr-[5.5556vw]">
         <button
-          className="px-[2.2222vw] py-[1.1111vw] rounded-full border border-black flex items-center justify-center "
+          className="px-[2.2222vw] py-[1.1111vw] group rounded-full  bg-transparent transition-colors duration-300 border-black border text-white hover:bg-black flex items-center justify-center "
           onClick={handlePrev}
           aria-label="Previous testimonial"
         >
-          <Image src="/icons/arrow-right-black.svg" alt="arrow-right" className='rotate-180 w-[1.6667vw] h-[1.6667vw]' width={24} height={24} />
+           <svg className='w-[1.6667vw] h-[1.6667vw] transition-colors rotate-180 duration-300 text-black group-hover:text-white' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
         </button>
         <span className="text-regularText font-semibold" >
-          <span className='underline'>{String(current + 1).padStart(2, '0')}</span><span className=' text-[rgba(1,2,4,.4)]'>/{String(testimonials.length).padStart(2, '0')}</span>
+          <span className=''>{String(current + 1).padStart(2, '0')}</span><span className=' text-[rgba(1,2,4,.4)]'>/{String(testimonials.length).padStart(2, '0')}</span>
         </span>
-        <button
-          className="px-[2.2222vw] py-[1.1111vw] rounded-full bg-black text-white flex items-center justify-center "
+        <button 
+          className="px-[2.2222vw] py-[1.1111vw] group rounded-full bg-transparent transition-colors duration-300 border-black border text-white hover:bg-black flex items-center justify-center "
           onClick={handleNext}
           aria-label="Next testimonial"
         >
-          <Image src="/icons/arrow-right-white.svg" alt="arrow-right" className='w-[1.6667vw] h-[1.6667vw]' width={24} height={24} />
+           <svg className='w-[1.6667vw] h-[1.6667vw] transition-colors duration-300 text-black group-hover:text-white' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
         </button>
         </div>
         
