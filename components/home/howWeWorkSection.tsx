@@ -19,10 +19,10 @@ const HowWeWorkSection = () => {
             <p className='text-testimonial font-bold text-white ml-[2.7778vw] mt-[2.7778vw] leading-[80%]'>15<span className='text-[#7A28CB]'>+</span></p>
             <p className='text-mediumText font-semibold text-[#878C91] ml-[2.7778vw] mt-[1.6667vw] leading-[100%]'>Project finished with superbly</p>
             <div className='mt-auto flex gap-[.4861vw] ml-[2.7778vw] mb-[2.7778vw]'>
-                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full'/>
-                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full'/>
-                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full'/>
-                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full'/>
+                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full bg-[url("/images/home/parth.png")] bg-cover bg-center'/>
+                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full bg-[url("/images/home/sanjay.png")] bg-cover bg-center'/>
+                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full bg-[url("/images/home/maidul.png")] bg-cover bg-center'/>
+                <div className='w-[4.8611vw] h-[4.8611vw] bg-[#FFFFFF] rounded-full bg-[url("/images/home/mukesh.png")] bg-cover bg-center'/>
                 <span className='text-h0Text font-bold text-white leading-[30%] my-auto'>+</span>
             </div>
             </div>

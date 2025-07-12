@@ -28,9 +28,11 @@ import { usePathname } from 'next/navigation';export default function Navbar() {
           <span className=" font-semibold">Service</span>
             </div>
             </TransitionLink>
+        <TransitionLink href="/case-study">
         <div className="flex items-center cursor-pointer gap-[.4861vw] ">
         <span className="font-semibold">Case Study</span>
         </div>
+        </TransitionLink>
         <div className="flex items-center cursor-pointer gap-[.4861vw] ">
         <span className=" font-semibold">Resources</span>
         </div>

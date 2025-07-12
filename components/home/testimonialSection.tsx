@@ -3,24 +3,30 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 const testimonials = [
   {
-    text: "They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.",
+    text: "The MyBrandLabs team helped us with our website , scale our inbound student queries with a powerful SEO + CRM funnel setup. Their ability to blend marketing and tech helped us focus more on counselling and less on chasing leads.",
     name: "Parth Arora",
     role: "Owner Arora Opticals",
-    avatar: "/images/home/avatar.png",
+    avatar: "/images/home/parth.png",
   },
   {
-    text: "MBL's team is proactive and always ready with innovative solutions. Our brand visibility has increased significantly since we started working with them.",
-    name: "Aisha Khan",
-    role: "Marketing Lead, VisionCare",
-    avatar: "/images/home/avatar2.png",
+    text: "The MyBrandLabs team helped us scale our inbound student queries with a powerful SEO + CRM funnel setup. Their ability to blend marketing and tech helped us focus more on counselling and less on chasing leads.”",
+    name: "Maidul Sheikh",
+    role: "Edurizon, MD",
+    avatar: "/images/home/maidul.png",
   },
   {
-    text: "The attention to detail and personalized approach is what sets MBL apart. Highly recommended for anyone looking to grow their business.",
-    name: "Rahul Mehta",
-    role: "Founder, Mehta Eyewear",
-    avatar: "/images/home/avatar3.png",
+    text: "My Brand Labs has been an absolute pleasure to work with! Their team was incredibly cooperative and delivered our website and management software on time, within budget, and with exceptional efficiency. Their professionalism and expertise exceeded our expectations. We highly recommend them  for any digital project needs! - Edurizon  Private Limited.",
+    name: "Sanjay Burai",
+    role: "SAVDA EDUCATIONALS SERVICES PRIVATE LIMITED, CEO ",
+    avatar: "/images/home/sanjay.png",
   },
-  // Add more testimonials as needed
+  {
+    text: "We went from being just an idea to booking 100+ travellers in our very initial spiritual trips — all thanks to MyBrandLabs’ targeted social campaigns, viral content strategy, and a beautiful landing page that converted.",
+    name: "Nawtej Gaikwad",
+    role: "Founder, Tirth Ghumo",
+    avatar: "/images/contactUs/nawtejGaikwad.png",
+  },
+
 ];
 
 const TestimonialSection = () => {
